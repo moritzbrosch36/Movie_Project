@@ -17,7 +17,7 @@ import os
 from dotenv import load_dotenv
 import re
 import statistics
-import movie_storage_sql as storage
+from Movie_Project_Part_3.movie_storage.movie_storage import movie_storage_sql as storage
 
 # .env-data load
 load_dotenv()
